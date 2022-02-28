@@ -1,15 +1,6 @@
 
   # Professional README Generator
 
-  ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-
   ## Description
   This application runs in the command line. The application utilizes node.js to dynamically create a README file based off of the data collected from the user.
 
