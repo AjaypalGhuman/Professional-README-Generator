@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
@@ -62,7 +63,7 @@ const questions = () => {
             name: 'contribute',
             message: 'Enter any guidelines on how users can further contribute to your repository'
         }
-    ]);
+    ])
 };
 
 
