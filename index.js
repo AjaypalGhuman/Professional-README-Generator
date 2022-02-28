@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'name',
+        name: 'title',
         message: 'Enter the name of your project?'
     },
     {
@@ -40,7 +40,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Which license should your project have? (Choose one)',
-        choices: ['ApacheLicense2', 'MIT', 'GNUGPLv3', 'GNUGPLv2', 'ISC']
+        choices: ['Apache2', 'MIT', 'GNUGPLv3', 'GNUGPLv2', 'ISC']
     },
     {
         type: 'input',
