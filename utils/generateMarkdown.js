@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
     ApacheLicense2: '![License](https://img.shields.io/badge/License-Apache-License-2.0-blue.svg)',
     GNUGPLv3: '![License](https://img.shields.io/badge/License-GNU-GPLv3-blue.svg)',
     GNUGPLv2: '![License](https://img.shields.io/badge/License-GNU-GPLv2-blue.svg)',
-    BSD3: '![License](https://img.shields.io/badge/License-BSD-3-blue.svg)'
+    ISC: '![License](https://img.shields.io/badge/License-ISC-blue.svg)'
 
   }
   return badges[license]
@@ -15,7 +15,15 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  const licenseLinks = {
+    MIT: '[MIT](https://choosealicense.com/licenses/mit/)',
+    ApacheLicense2: '[ApacheLicense2](https://choosealicense.com/licenses/apache-2.0/)',
+    GNUGPLv3: '[GNUGPLv3](https://choosealicense.com/licenses/gpl-3.0/)',
+    GNUGPLv2: '[GNUGPLv2](https://choosealicense.com/licenses/gpl-2.0/)',
+    ISC: '[ISC](https://choosealicense.com/licenses/isc/)'
+  }
 
+  return licenseLinks[License]
 }
 
 
